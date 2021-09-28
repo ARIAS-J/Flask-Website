@@ -1,0 +1,21 @@
+{% extends 'base.html'%}
+{% block title %}Ratri Group - Login{% endblock %}
+
+{% block content %}
+
+<form method="POST">
+    <h3 align="center">Login</h3>
+
+    <div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="Email">
+    </div>
+
+
+    <div class="form-group">
+        <input type="password" class="form-control" name="password" placeholder="Password">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+{% endblock %}
